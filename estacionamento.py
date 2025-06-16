@@ -9,12 +9,7 @@ VIDEO_SOURCE = 'video.mp4'
 # Coordenadas das vagas (polígonos de 4 pontos)
 # !!! ATENÇÃO: ESTAS COORDENADAS SÃO APENAS UM EXEMPLO. !!!
 # !!! VOCÊ DEVE USAR O SCRIPT MAPEADOR PARA OBTER AS SUAS COORDENADAS REAIS. !!!
-VAGAS_COORDENADAS = [
-    ((680, 97), (602, 100), (840, 457), (844, 36)),
-    ((421, 101), (463, 458), (788, 457), (590, 105)),
-    ((408, 101), (437, 457), (190, 449), (236, 113)),
-    ((142, 125), (223, 117), (152, 448), (7, 149))
-]
+VAGAS_COORDENADAS = [((259, 71), (199, 421), (407, 427), (399, 68)), ((423, 70), (434, 431), (746, 421), (601, 76)), ((640, 123), (840, 443), (842, 94), (694, 97)), ((95, 127), (208, 128), (20, 457), (5, 166))]
 
 # Limiar para considerar uma vaga ocupada.
 # Se a quantidade de pixels brancos na vaga for maior que este valor, está ocupada.
